@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cart Payment System</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="product">
+            <img src="./assets/nike-shoes.png" style="height:400px;width:470px;">
+            <p>NIKE Blue Sports Shoe <br>$40.00</p>
+        </div>
+        <div class="payment">
+            <h2>Payment Details</h2>
+            <p class="enter_details">Enter Your Payment Details Below To Purchase</p>
+            <form action="" class="payment_form">
+                <p>Email Address</p>
+                <input type="text" placeholder="alex213@gmail.com">
+                <p>Card Holder</p>
+                <input type="text" placeholder="Alex Carry" id="card_holder_form">
+                <p id="card_details"><span id="">Card Number</span> <span>CCV</span><span id="exp">Expiry Date</span></p>
+                <input type="text" id="card_number_form"><input type="password" id="ccv_form"><input type="date" id="expiry_date_form">
+                <p>Billing Address</p>
+                <input type="text">
+                <p><span>State/Province</span><span id="country">Country</span></p>
+                <input type="text" placeholder="type here" id="state_form"><input type="text" placeholder="type here" id="country_form">
+                <div class="pay"><button type="submit" id="pay_button">Pay Now</button></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
