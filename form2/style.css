@@ -1,86 +1,64 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    background-color: rgb(141, 185, 223);
 }
 
 body {
-    background-image: url(./assets/colour.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
 }
 
-.area {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    position: relative;
-    top: 160px;
-    left: 180px;
-    width: 400px;
-    height: 400px;
-    background-color: rgba(115, 187, 232, 0.5);
-    padding: 10px;
-    border-radius: 20px;
-}
-
-h2 {
-    text-transform: capitalize;
-}
-
-.form-area {
-    height: 260px;
+.total-form {
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 5px;
     width: 250px;
-    margin: 30px 40px 40px 70px;
-    border: 5px solid rgb(23, 128, 128);
-    border-radius: 20px;
+    height: 300px;
+    line-height: 25px;
 }
 
-.user-pic {
-    position: relative;
-    left: 25px;
-    height: 50px;
-    bottom: 25px;
-    border: 5px solid white;
-    border-radius: 50px;
+input {
+    width: 90%;
 }
 
-.mail {
-    position: relative;
-    height: 10px;
+.welcome {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.regOrlog {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .user {
-    position: relative;
-    right: 127px;
-    top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .pass {
-    position: relative;
-    right: 100px;
-    top: 27px;
+    padding-left: 10px;
 }
 
-.logIn {
-    margin-top: 15px;
-    margin-right: 118px;
-    background-color: rgb(15, 53, 53);
-    color: aliceblue;
-    border: 1px solid rgb(96, 96, 233);
-    border-radius: 3px;
+.login-forgot {
+    padding: 10px;
 }
 
-.forgot_pass {
-    position: relative;
-    left: 35px;
-    bottom: 18px;
-    font-size: 13px;
+.forgot {
+    padding-left: 10px;
+    word-spacing: 5px;
 }
 
-.nAccount {
-    margin-top: 10px;
-    color: aliceblue;
-    background-color: rgb(15, 53, 53);
-    border: 1px solid rgb(96, 96, 233);
-    border-radius: 3px;
+a:link {
+    text-decoration: none;
+}
+
+.register {
+    padding-left: 10px;
+    padding-top: 15px;
+    word-spacing: 5px;
 }
